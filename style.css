@@ -1,0 +1,109 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    
+}   
+ul {
+    list-style-type: none;
+}
+
+.todo-wrapper{
+    background-color: #FFA500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+#addTask{
+    margin-top: 10px;
+    border: 0px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+            
+    background-color: #FFFF00;
+}
+#addTask:hover{
+
+    background-color: Coral;
+    color: white;
+}
+
+.h2-task-list {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-bottom: 1px solid black;
+            
+}
+
+.add-div {
+            
+    display: flex;
+    width: 500px;
+    margin-right: 40px;
+}
+.remove-button {
+    font-size: 12px;
+    border: 0px solid;
+    height: 40px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    background-color: #DC143C;
+    margin-left: 200px;
+    
+}
+.remove-button:hover{
+    color: white;
+    background-color: #FF0000;
+}
+.done-status {
+            
+    border: 0px solid;
+    height: 40px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #00FF7F;
+
+}
+.done-status:hover{
+    color: white;
+    background-color: #2E8B57;
+}
+.no-done-status{
+    font-size: 18px;
+    border: 0px solid;
+    height: 40px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #1E90FF;
+}
+
+.no-done-status:hover {
+    color: white;
+    background-color: #0000CD;
+}
+
+
+
+
+
+#taskInput {
+    color: red;
+    font-weight: 700;
+    background-color: #98FB98;
+    height: 20px;
+    width: 300px;
+    border: 3px solid black;
+}
+
+
+.task-text {
+    color: white;
+    font-weight: 700;
+}
+
+
